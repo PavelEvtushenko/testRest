@@ -13,4 +13,6 @@ func main() {
 		log.Fatalf("ошибка сервера 1 %s", err.Error())
 	}
 
+	// test
+
 }
