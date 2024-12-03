@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"log"
 	todo "restApi"
 	"restApi/pkg/handler"
@@ -17,6 +18,5 @@ func main() {
 		log.Fatalf("ошибка сервера 1 %s", err.Error())
 	}
 
-	// test
-
+	fmt.Println("test")
 }
